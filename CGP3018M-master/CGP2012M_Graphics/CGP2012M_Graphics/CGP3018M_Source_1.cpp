@@ -148,7 +148,7 @@ int main(int argc, char *argv[])
 					colour = 2;
 					SDL_Log("Test Blue");
 					break;
-				case SDLK_q:
+				case SDLK_ESCAPE:
 					windowOpen = false;
 					break;
 				default:
